@@ -176,8 +176,9 @@
 }
 
 .payment__change-number {
-    font-size: 30px;
+    font-size: 50px;
     color: #fff9;
+    margin-bottom: 40px;
 }
 
 .payment__commission,
