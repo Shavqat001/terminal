@@ -1,0 +1,188 @@
+.payment .wrapper {
+    display: flex;
+    justify-content: center;
+    width: 1100px;
+    flex-wrap: wrap;
+}
+
+.payment .wrapper aside {
+    padding: 50px;
+    border: 5px solid #233448;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.payment__operator-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff5;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.payment__operator-title span {
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.payment .wrapper aside p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    color: #fff5;
+}
+
+.payment .wrapper aside p span {
+    font-size: 30px;
+    color: #fff;
+}
+
+.payment__picture {
+    border-radius: 10%;
+    margin-bottom: 50px;
+}
+
+.payment__list {
+    list-style: none;
+    display: grid;
+    width: 430px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.payment__numbers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    z-index: 1;
+    border: 5px solid #233448;
+    border-left: 0;
+    position: relative;
+}
+
+.payment__numbers h2 {
+    font-size: 40px;
+    color: #ffffffdc;
+    font-weight: 400;
+    text-transform: none;
+    margin-bottom: 50px;
+    position: absolute;
+    top: -30px;
+    padding: 5px 20px;
+}
+
+.payment__numbers div {
+    position: relative;
+}
+
+.payment__numbers input {
+    width: 600px;
+    font-family: consolas;
+    font-size: 70px;
+    padding: 10px 20px;
+    letter-spacing: 6px;
+    background-color: #fff9;
+    border-radius: 20px;
+    border: 5px solid #2c4056;
+    margin: 0;
+    box-shadow: 0 0 20px -10px #fff;
+    margin-bottom: 50px;
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+.pay__number-field {
+    width: 250px !important;
+    padding: 10px 20px !important;
+}
+
+.pay__number-field::-webkit-inner-spin-button {
+    appearance: none;
+}
+
+.payment__remove-last-char {
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    width: 70px;
+    height: 70px;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: none;
+    background-color: #444;
+    cursor: pointer;
+}
+
+.payment__remove-last-char::after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-color: tomato;
+    clip-path: polygon(15% 0, 0 15%, 35% 50%, 0 85%, 15% 100%, 50% 65%, 85% 100%, 100% 85%, 65% 50%, 100% 15%, 85% 0, 50% 35%);
+    background-color: #fff9;
+    margin-left: 10px;
+}
+
+.payment__numbers input::-webkit-outer-spin-button,
+.payment__numbers input::-webkit-inner-spin-button {
+    appearance: none;
+}
+
+.payment__number button {
+    background-color: transparent;
+    border: none;
+    padding: 10px 50px;
+    background: radial-gradient(circle at top left, rgba(255, 255, 255, 0.906) 0%, rgba(255, 255, 255, 0.906) 60%, rgba(255, 255, 255, 0.906) 60%, rgba(221, 221, 221, 0.887) 15%, rgba(221, 221, 221, 0.887) 15%);
+    border-radius: 20% 20% 30% 30%;
+    font-size: 50px;
+    font-weight: bold;
+    color: #233448;
+    border-bottom: 10px solid #888;
+}
+
+.payment__buttons {
+    width: 100%;
+    padding: 50px 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.payment__buttons button {
+    border: none;
+    padding: 30px 50px;
+    font-size: 25px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    box-shadow: inset 0 0 5px #111;
+    border: 5px solid #fff5;
+    background-color: transparent;
+    color: #fff;
+}
+
+.payment__buttons .continue-button {
+    background: radial-gradient(circle at top, rgb(26, 130, 235), rgba(30, 143, 255, 0.648));
+}
+
+.payment__change-number {
+    font-size: 30px;
+    color: #fff9;
+}
+
+.payment__commission,
+.payment__commission span {
+    color: #fff9;
+    font-size: 30px;
+    margin-top: 50px;
+}

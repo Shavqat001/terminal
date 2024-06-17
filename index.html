@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>terminal</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="page">
+    <div class="black-screen visually-hidden"></div>
+    <div class="modal-language">
+        <div>
+            <h2 class="modal-language__title">
+                выберите язык
+            </h2>
+        </div>
+        <ul class="modal-language__list">
+            <li class="modal-language__item modal-language__item--selected">
+                <img src="./img/ru.svg" width="40" alt="">
+                русский
+            </li>
+            <li class="modal-language__item">
+                <img src="./img/tj.svg" width="40" alt="">
+                забони тоҷикӣ
+            </li>
+            <li class="modal-language__item">
+                <img src="./img/en.svg" width="40" alt="">
+                english
+            </li>
+        </ul>
+        <button class="modal-language__button">отменить</button>
+    </div>
+
+    <header class="main-header">
+        <div class="wrapper">
+            <p class="main-header__contact">
+                <span>терминал: 335529</span>
+                <a href="">контактная информация</a>
+            </p>
+
+            <div class="main-header__interval"></div>
+
+            <div class="main-header__lang">
+                <span>выбрать язык</span>
+                <div>
+                    <img src="./img/ru.svg" width="50" alt="">
+                    <span>ru</span>
+                </div>
+            </div>
+
+            <div class="main-header__interval"></div>
+
+            <img class="main-logo" src="./img/main-logo.svg" width="258" alt="">
+
+            <div class="main-header__interval"></div>
+
+            <div class="main-header__contract">
+                <img src="./img/document.svg" width="40" alt="">
+                <span>договор <br> оферта</span>
+            </div>
+
+            <div class="main-header__interval"></div>
+
+            <div class="main-header__support">
+                <span>служба <br> поддержки</span>
+                <span>988 88 61 61</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="payment visually-hidden">
+            <div class="wrapper">
+                <aside>
+                    <img class="payment__picture" src="./img/megafon.jpg" width="250" alt="megafon">
+                    <hr style="width: 100%;margin-bottom: 50px;">
+                    <h2 class="payment__operator-title">
+                        название оператора
+                        <span>megafon</span>
+                    </h2>
+
+                    <p>
+                        номер состоит из
+                        <span>9 цифр</span>
+                    </p>
+
+                    <p>
+                        комиссия
+                        <span>
+                            <span>2</span>
+                            <span>%</span>
+                        </span>
+                    </p>
+
+                    <p>
+                        максимальный платёж
+                        <span>500 сом.</span>
+                    </p>
+                </aside>
+
+                <div class="payment__numbers">
+                    <h2> Введите номер </h2>
+                    <p class="payment__change-number visually-hidden">
+                        987654321
+                    </p>
+                    <div>
+                        <input class="number-field" type="number">
+                        <button class="payment__remove-last-char"></button>
+                    </div>
+                    <ul class="payment__list">
+                        <li class="payment__number">
+                            <button>1</button>
+                        </li>
+                        <li class="payment__number">
+                            <button>2</button>
+                        </li>
+                        <li class="payment__number">
+                            <button>3</button>
+                        </li>
+                        <li class="payment__number">
+                            <button>4</button>
+                        </li>
+                        <li class="payment__number">
+                            <button>5</button>
+                        </li>
+                        <li class="payment__number">
+                            <button>6</button>
+                        </li>
+                        <li class="payment__number">
+                            <button>7</button>
+                        </li>
+                        <li class="payment__number">
+                            <button>8</button>
+                        </li>
+                        <li class="payment__number">
+                            <button>9</button>
+                        </li>
+                        <li class="payment__number">
+                            <button>0</button>
+                        </li>
+                    </ul>
+                    <p class="payment__commission visually-hidden">
+                        На счёт зачислится <span>0</span> сомони
+                    </p>
+                </div>
+
+                <div class="payment__buttons">
+                    <button class="back-button">
+                        вернуться назад
+                    </button>
+                    <button class="continue-button">
+                        продолжить
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <div class="main__mobile-operator">
+            <div class="wrapper">
+                <ul class="main__mobile-operators">
+                    <li class="main__operator">
+                        <img src="./img/babilon-m.png" width="258" height="150" alt="babilon-m">
+                    </li>
+                    <li class="main__operator">
+                        <img src="./img/megafon.jpg" width="258" height="150" alt="megafon">
+                    </li>
+                    <li class="main__operator">
+                        <img src="./img/beeline.png" width="258" height="150" alt="beeline">
+                    </li>
+                    <li class="main__operator">
+                        <img src="./img/tcell.png" width="258" height="150" alt="tcell">
+                    </li>
+                    <li class="main__operator">
+                        <img src="./img/omobile.jpg" width="258" height="150" alt="o-mobile">
+                    </li>
+                    <li class="main__operator">
+                        <img src="./img/odnoklassniki.jpg" width="258" height="150" alt="одноклассники">
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <section class="service">
+            <div class="wrapper">
+                <div class="service__ad">
+                    <p>реклама на терминале</p>
+                    <p>985 55 03 99</p>
+                    <span>380 x 570</span>
+                </div>
+
+                <ul class="service__list">
+                    <li class="service__item">
+                        <img src="./img/phone.svg" width="80" alt="">
+                        <h3>мобильная <br> связь</h3>
+                    </li>
+                    <li class="service__item">
+                        <img src="./img/home-phone.svg" width="80" alt="">
+                        <h3>городская <br> связь, NGN</h3>
+                    </li>
+                    <li class="service__item">
+                        <img src="./img/provider.svg" width="80" alt="">
+                        <h3>интернет <br> провайдеры</h3>
+                    </li>
+                    <li class="service__item">
+                        <img src="./img/sputnik.svg" width="80" alt="">
+                        <h3>спутниковое <br> телевидение</h3>
+                    </li>
+                    <li class="service__item">
+                        <img src="./img/operator.svg" width="80" alt="">
+                        <h3>зарубежные <br> операторы</h3>
+                    </li>
+                    <li class="service__item">
+                        <img src="./img/wallet.svg" width="80" alt="">
+                        <h3>электронные <br> кошельки</h3>
+                    </li>
+                    <li class="service__item">
+                        <img src="./img/social.svg" width="80" alt="">
+                        <h3>социальные <br> сети</h3>
+                    </li>
+                    <li class="service__item">
+                        <img src="./img/game.svg" width="80" alt="">
+                        <h3>онлайн <br> игры</h3>
+                    </li>
+                    <li class="service__item">
+                        <img src="./img/other.svg" width="60" alt="">
+                        <h3>другие <br> услуги</h3>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>
+            Подключены новые услуги сотовых операторов Афганистана - Etisalat, Roshan, MTN и Salaam, услуги размещены
+            под категорией международные операторы. Средняя цена за минуту среди звонков внутри сети оператора
+            колеблется в районе 3 центов за минуту. В то же время, расценка на номера других операторов едина для всех –
+            4 цента за минуту.
+            Подключены новые услуги сотовых операторов Афганистана - Etisalat, Roshan, MTN и Salaam, услуги размещены
+            под категорией международные операторы. Средняя цена за минуту среди звонков внутри сети оператора
+            колеблется в районе 3 центов за минуту. В то же время, расценка на номера других операторов едина для всех –
+            4 цента за минуту.
+        </p>
+    </footer>
+
+    <script src="./js/modal.js"></script>
+    <script src="./js/operator.js"></script>
+    <script src="./js/payment.js"></script>
+    <script src="./js/prefixes.js"></script>
+</body>
+
+</html>

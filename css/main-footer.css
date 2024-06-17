@@ -1,0 +1,46 @@
+.main-footer {
+    padding: 20px;
+    /* box-shadow: inset 20px 0 20px #333, inset -20px 0 20px #333; */
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(9, 9, 44, 0.827);
+}
+
+.main-footer::before,
+.main-footer::after {
+    content: '';
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.main-footer::before {
+    left: 0;
+    background: linear-gradient(90deg, #111, transparent);
+}
+
+.main-footer::after {
+    right: 0;
+    background: linear-gradient(270deg, #111, transparent);
+}
+
+.main-footer p {
+    color: #fff;
+    font-size: 14px;
+    text-transform: lowercase;
+    text-wrap: nowrap;
+    animation: marquee 15s infinite linear;
+    position: relative;
+    z-index: -1;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}

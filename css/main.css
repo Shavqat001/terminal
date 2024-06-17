@@ -1,0 +1,56 @@
+.main__mobile-operator {
+    background: linear-gradient(90deg, transparent, #fff5, transparent);
+    padding: 50px 0;
+    display: flex;
+    border-bottom: 10px solid #fff1;
+    box-shadow: 0 30px 20px #111;
+    justify-content: center;
+    width: 100%;
+}
+
+.main__mobile-operators {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main__operator {
+    cursor: pointer;
+}
+
+.main__operator:nth-child(1)>img {
+    border: 2px solid rgba(255, 255, 0, 0.581);
+    border-bottom: 10px solid rgba(255, 255, 0, 0.581);
+}
+
+.main__operator:nth-child(2)>img {
+    border: 2px solid rgb(26, 86, 26);
+    border-bottom: 10px solid rgb(26, 86, 26);
+}
+
+.main__operator:nth-child(3)>img {
+    border: 2px solid rgb(182, 182, 182);
+    border-bottom: 10px solid rgb(182, 182, 182);
+}
+
+.main__operator:nth-child(4)>img {
+    border: 2px solid rgb(65, 22, 97);
+    border-bottom: 10px solid rgb(65, 22, 97);
+}
+
+.main__operator:nth-child(5)>img {
+    border: 2px solid rgb(97, 22, 22);
+    border-bottom: 10px solid rgb(84, 12, 12);
+}
+
+.main__operator:nth-child(6)>img {
+    border: 2px solid rgb(99, 59, 16);
+    border-bottom: 10px solid rgb(99, 59, 16);
+}
+
+.main__operator img {
+    border-radius: 15%;
+    border-bottom: none;
+    box-shadow: 0 5px 20px -5px #111;
+}
