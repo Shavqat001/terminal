@@ -1,9 +1,8 @@
 .main-footer {
     padding: 20px;
-    /* box-shadow: inset 20px 0 20px #333, inset -20px 0 20px #333; */
     position: relative;
     overflow: hidden;
-    background-color: rgba(9, 9, 44, 0.827);
+    background-color: rgb(13 37 71 / 49%);
 }
 
 .main-footer::before,
